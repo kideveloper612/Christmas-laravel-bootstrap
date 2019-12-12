@@ -1,0 +1,226 @@
+header.container {
+	max-height: 90px;
+	min-height: auto;
+	flex-wrap:nowrap;
+	justify-content: center;
+}
+
+header>div>div>img {
+	width: 110px;
+}
+
+header p {
+	font-size: 12px;
+	width: 300px;
+}
+
+header nav {
+	margin-top: -20px;
+	padding: 0!important;
+}
+
+header nav li a{
+	padding-left: 0!important;
+	padding-right: 30px!important;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000!important;
+}
+
+header div>a>img {
+	width: 20px;
+}
+a:hover {
+	text-decoration: underline!important;
+	color: red!important;
+}
+
+.social {
+	width: 5vw;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.flag {
+	align-items: center;
+}
+
+.flag>img{
+	width: 55px;
+}
+
+.landing {
+	/*height: 10000px; */
+}
+
+.landing .intro {
+	background-image: url("./../images/background.png");
+	background-repeat: no-repeat;
+    background-size: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	color: rgb(254, 214, 108);
+	font-weight: bolder;
+}
+
+.first-button, .second-button {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.button-text {
+	left: 0;
+    position:absolute;
+    text-align:center;
+    font-size: 1.1rem;
+    top: 25px;
+    width: 100%
+}
+
+.button-text-secondary {
+	left: 0;
+    position:absolute;
+    text-align:center;
+    font-size: 1.1rem;
+    color: black;
+    top: 25px;
+    width: 100%
+}
+
+.button-image {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+
+.intro>div {
+	margin-right: 0;
+}
+
+.intro>img {
+	width: 100%;
+	margin-top: 270px;
+}
+
+.kid {
+	background-image: url('./../images/layer_13.png');
+	margin-top: -30px;
+	background-repeat: no-repeat;
+    background-size: 100%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	font-weight: bolder;
+}
+
+.kid p {
+	color: white;
+	font-size: 1rem;
+	font-weight: normal;
+}
+
+.kid .div div div div {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+
+.kid>img {
+	width: 100%;
+	margin-top: 20px;
+}
+
+.third {
+	background-image: url('./../images/third-background.png');
+	margin-top: -144px;
+	background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.third>img {
+	width: 100%;
+	margin-top: -152px;
+}
+
+.forth {
+	background-color: rgb(123, 0, 0);
+	text-align: center;
+	margin-top: -44px;
+}
+
+.forth>img {
+	width: 100%;
+	margin-top: 200px;
+}
+
+.children>img {
+	width: 100%;
+}
+
+.fifth {
+	background-image: url('./../images/last-background.png');
+	margin-top: -230px;
+	background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.third-button {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.last-intro {
+	margin-top: 200px;
+}
+
+.button-alove {
+	margin-top: 750px;
+}
+
+.third-button-text {
+	left: 0;
+    position:absolute;
+    text-align:center;
+    font-size: 1.1rem;
+    top: 17px;
+    width: 100%
+}
+
+footer {
+	margin-top: 80px;
+	margin-bottom: 80px;
+}
+
+footer .last-content {
+	font-size: 0.8rem;
+}
+
+.footer nav {
+	font-weight: bold;
+	opacity: 1;
+}
+
+.footer .navbar-light .navbar-nav .nav-link {
+	color: black;
+	padding-right: 1rem!important;
+	padding-left: 0px!important;
+}
+
+.footer-content {
+	margin-top: -0.6rem;
+}
+
+.btn.btn-info {
+	background-color: rgb(74, 103, 183);
+	border: none;
+}
+
+.first-button:hover, .second-button:hover, .third-button:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.first-button:active, .second-button:active, .third-button:active {
+	transform: scale(1.1);
+}
