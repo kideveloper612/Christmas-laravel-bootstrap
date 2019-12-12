@@ -1,12 +1,13 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
-
-#Christmas Congratulations!
+Happy Christmas Day!
+================================================
 This project is one for Christmas Day using laravel and bootstrap.
 
-##Environment
+Environment
+------------------------------------------
 		- mysql server: https://www.mysql.com/
-====================================================
-##How to Run?
+
+How to Run?
+--------------------------------------------
 		- clone project from git repository
 			<command>: git clone https://github.com/kideveloper612/Christmas-laravel-bootstrap.git
 
@@ -29,5 +30,6 @@ This project is one for Christmas Day using laravel and bootstrap.
 
 		You can check this project running on http://localhost:8000/.
 
-##Conculsion
+Conculsion
+---------------------------------------
 	Here the multiple pages have to be added.
