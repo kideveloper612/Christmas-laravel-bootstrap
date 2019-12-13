@@ -29,7 +29,7 @@
         <div class="row">
             <div class="col-6 offset-3 d-flex">
                 <img src="./images/first-red-button.png" class="first-button-1st">
-                <img src="./images/first-yellow-button.png" class="first-button-2nd">
+                <a href="https://vimeo.com/253989945" target="_blank"><img src="./images/first-yellow-button.png" class="first-button-2nd"></a>
             </div>
         </div>
     </div>
