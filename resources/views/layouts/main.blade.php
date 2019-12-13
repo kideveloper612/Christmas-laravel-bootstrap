@@ -13,100 +13,81 @@
 
     <!-- Custome style -->
     <link rel="stylesheet" type="text/css" href="./css/main.css">
+	<!-- Chocolate font -->
+	<link rel="stylesheet" type="text/css" href="./css/working-font/stylesheet.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<header class="container d-flex">
-		<div class="d-flex">
-			<div class="px-3 mt-2">
-				<img class="vw-2" src="./images/transparent-library-chris.png">
-			</div>
-			<div>
-				<div class="mt-3">
-					<p>Перший в Україні сервіс для створення <br>іменних відеопривітань для дiтей вгд Св. Миколая</p>
+	<header class="container-fluid d-flex row">
+		<div class="col-8 offset-2 d-flex">
+			<div class="d-flex">
+				<div>
+					<img src="./images/transparent-library-chris.png">
 				</div>
-				<!-- Top menu -->
-				<nav class="navbar navbar-light navbar-expand-md">
-		            <ul class="navbar-nav ml-auto">
-		                <li class="nav-item">
-		                    <a class="nav-link scroll-link" href="#">ЯК ЗАМОВИТИ</a>
-		                </li>
-		                <li class="nav-item">
-		                    <a class="nav-link scroll-link" href="#">НАЙПОШИРЕНІШІ</a>
-		                </li>
-		                <li class="nav-item">
-		                    <a class="nav-link scroll-link" href="#">ЗАПИТАННЯ</a>
-		                </li>
-		                <li class="nav-item">
-		                    <a class="nav-link scroll-link" href="#">ВІДГУКИ</a>
-		                </li>
-		                <li class="nav-item">
-		                    <a class="nav-link scroll-link" href="#">ПРО</a>
-		                </li>
-		            </ul>
-				</nav>
+				<div class="d-block p-tag">
+					<div>
+						<p>Перший в Україні сервіс для створення <br>іменних відеопривітань для дiтей вгд Св. Миколая</p>
+					</div>
+					<!-- Top menu -->
+					<div class="navbar-group d-flex">
+	                    <a class="navbar-link" href="#">ЯК_ЗАМОВИТИ</a>
+	                    <a class="navbar-link" href="#">НАЙПОШИРЕНІШІ</a>
+	                    <a class="navbar-link" href="#">ЗАПИТАННЯ</a>
+	                    <a class="navbar-link" href="#">ВІДГУКИ</a>
+	                    <a class="navbar-link" href="#">ПРО</a>
+					</div>
+				</div>
 			</div>
-		</div>
-		<div class="social mr-5">
-			<a href="" class="">
-				<img src="./images/vector_smart_object.png">
-			</a>
-			<a href="">
-				<img src="./images/vector_smart_object_2.png">
-			</a>
-		</div>
-		<div class="d-flex flag">
-			<img src="./images/flag.png" class="float-right">
+			<div class="d-flex">
+				<div class="social d-flex">
+					<a href="">
+						<img src="./images/vector_smart_object.png" class="social-image1">
+					</a>
+					<a href="">
+						<img src="./images/vector_smart_object_2.png" class="social-image2">
+					</a>
+				</div>
+				<div class="d-flex">
+					<img src="./images/flag.png" class="flag float-right">
+				</div>
+			</div>
 		</div>
 	</header>
     @yield('content')
     <footer>
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-2">
-    				<img src="./images/transparent-library-chris.png">
+    	<div class="container-fluid row">
+    		<div class="col-7 offset-3 d-flex">
+    			<div class="d-block">
+    				<img src="./images/transparent-library-chris.png" class="footer-image">
     			</div>
-    			<div class="col-10 footer-content">
+    			<div>
     				<div class="row d-block">
-    					<div class="col-4 mb-2">
+    					<div class="footer-text-1st">
     						Діліться з друзями у Facebook
     					</div>
-    					<div class="col-4">
+    					<div class="col-6 d-flex footer-social">
     						<button class="btn btn-info">
-	    						<img src="./images/icon.png">
+	    						<img src="./images/icon.png" class="footer-facebook">
 	    						Подобається
 	    					</button>
     						<button class="btn btn-info ml-4">Поділитися</button>
     					</div>
     				</div>
-    				<div class="row mt-2 d-flex footer">
-    					<nav class="navbar navbar-light navbar-expand-md">
-				            <ul class="navbar-nav ml-auto">
-				                <li class="nav-item" style="padding-left: 0px;">
-				                    <a class="nav-link scroll-link" href="#">ЯК ЗАМОВИТИ</a>
-				                </li>
-				                <li class="nav-item">
-				                    <a class="nav-link scroll-link" href="#">НАЙПОШИРЕНІШІ</a>
-				                </li>
-				                <li class="nav-item">
-				                    <a class="nav-link scroll-link" href="#">ЗАПИТАННЯ</a>
-				                </li>
-				                <li class="nav-item">
-				                    <a class="nav-link scroll-link" href="#">ВІДГУКИ</a>
-				                </li>
-				                <li class="nav-item">
-				                    <a class="nav-link scroll-link" href="#">ПРО</a>
-				                </li>
-				            </ul>
-						</nav>
+    				<div class="row">
+    					<div class="footer-navbar-group d-flex">
+	                    <a class="footer-navbar-link" href="#">ЯК_ЗАМОВИТИ</a>
+	                    <a class="footer-navbar-link" href="#">НАЙПОШИРЕНІШІ</a>
+	                    <a class="footer-navbar-link" href="#">ЗАПИТАННЯ</a>
+	                    <a class="footer-navbar-link" href="#">ВІДГУКИ</a>
+	                    <a class="footer-navbar-link" href="#">ПРО</a>
+					</div>
     				</div>
-    				<div class="row last-content">
-    					<div class="col-12">
+    				<div class="row">
+    					<div class="col-12 footer-text-2nd">
     						Торгова марка «Коли Трапляються Дива» і всі цифрові та інтелектуальні матеріали, в тому числі на веб-сайті, захищені авторським правом. Спільне використання та копіювання без дозволу заборонено. ©2019
     					</div>
-    					
     				</div>
     			</div>
     		</div>
