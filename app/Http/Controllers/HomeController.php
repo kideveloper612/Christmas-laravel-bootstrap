@@ -13,7 +13,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        // $this->middleware('auth');
     }
 
     /**
@@ -23,7 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        return view('welcome');
     }
 
     /**
@@ -35,4 +35,45 @@ class HomeController extends Controller
     {
         return view('adminHome');
     }
+
+    /**
+     * Show the Form1.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function Form1()
+    {
+        return view('Form1');
+    }
+
+    /**
+     * Show the Form1.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function Form2()
+    {
+        return view('Form2');
+    }
+
+    /**
+     * Show the Form1.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function Form3()
+    {
+        return view('Form3');
+    }
+
+    /**
+     * Show the Form1.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+    public function Form4()
+    {
+        return view('Form4');
+    }
+
 }

@@ -19,3 +19,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('admin/home', 'HomeController@adminHome')->name('admin.home')->middleware('is_admin');
+Route::get('/Form1', 'HomeController@Form1')->name('Form1');
+Route::get('/Form2', 'HomeController@Form2')->name('Form2');
+Route::get('/Form3', 'HomeController@Form3')->name('Form3');
+Route::get('/Form4', 'HomeController@Form4')->name('Form4');

@@ -1,0 +1,27 @@
+@extends('layouts.Form_Main')
+
+@section('content')
+<body class="Form4-background d-block">
+	<div class="Form4">
+		<div class="card card-Form4">
+			<img src="./images/Form1/logo.png" class="logo-image">
+			<div class="row text-center">
+				<div class="col-6 offset-3 Form1-text Form4-text">
+					Дані замовника
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6 offset-3 Form4-input">
+					<input type="text" name="name" placeholder="П.І.Б.">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6 offset-3 Form4-input">
+					<input type="text" name="email" placeholder="Адреса електронної пошти">
+				</div>
+			</div>
+			<div class="row">
+				<button class="Form2-button Form4-button">Оплатити замовлення</button>
+			</div>
+		</div>
+@endsection
