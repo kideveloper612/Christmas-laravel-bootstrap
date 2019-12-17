@@ -91,6 +91,22 @@
     		</div>
     	</div>
     </footer>
+    <!-- Modal -->
+	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-body">
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+					</button>        
+					<!-- 16:9 aspect ratio -->
+					<div class="embed-responsive embed-responsive-16by9">
+						<iframe id="cartoonVideo class="embed-responsive-item"" width="560" height="315" allowscriptaccess="always" src="//www.youtube.com/embed/YE7VzlLtp-4?autoplay=1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>

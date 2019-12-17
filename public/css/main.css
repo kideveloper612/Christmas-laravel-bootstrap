@@ -1,6 +1,7 @@
 html, body {
 	height: 100%;
 	margin: 0;
+	padding-right: 0px !important;
 }
 
 .land {
@@ -816,4 +817,24 @@ button.Form2-button:active {
 .Form4-text {
 	margin-top: 0;
 	margin-bottom: 0.3vw;
+}
+
+.modal-dialog {
+	max-width: 800px;
+	margin: 300px auto;
+}
+
+.modal-body {
+	position:relative;
+	padding:0px;
+}
+.close {
+	position:absolute;
+	right:-30px;
+	top:0;
+	z-index:999;
+	font-size:2rem;
+	font-weight: normal;
+	color:#fff;
+	opacity:1;
 }

@@ -29,7 +29,7 @@
         <div class="row">
             <div class="col-6 offset-3 d-flex">
                 <a href="/Form2"><img src="./images/first-red-button.png" class="first-button-1st"></a>
-                <a href="/Form1" target="_blank"><img src="./images/first-yellow-button.png" class="first-button-2nd"></a>
+                <a href="#myModal" data-toggle="modal"><img src="./images/first-yellow-button.png" class="first-button-2nd"></a>
             </div>
         </div>
     </div>
