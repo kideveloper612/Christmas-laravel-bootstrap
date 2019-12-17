@@ -28,8 +28,8 @@
         </div>
         <div class="row">
             <div class="col-6 offset-3 d-flex">
-                <a href="/Form1"><img src="./images/first-red-button.png" class="first-button-1st"></a>
-                <a href="/Form2" target="_blank"><img src="./images/first-yellow-button.png" class="first-button-2nd"></a>
+                <a href="/Form2"><img src="./images/first-red-button.png" class="first-button-1st"></a>
+                <a href="/Form1" target="_blank"><img src="./images/first-yellow-button.png" class="first-button-2nd"></a>
             </div>
         </div>
     </div>
@@ -67,7 +67,7 @@
         </div>
         <div class="row">
             <div class="col-6 offset-3 d-flex">
-                <img src="./images/first-red-button.png" class="first-button-1st">
+                <a href="/Form2"><img src="./images/first-red-button.png" class="first-button-1st"></a>
             </div>
         </div>
     </div>
@@ -154,7 +154,7 @@
                 </div>
                 <div class="row">
                     <div class="col-12 text-center third-click-button">
-                        <img src="./images/third-click-button.png" class="third-first-button-1st">
+                        <a href="/Form2"><img src="./images/third-click-button.png" class="third-first-button-1st"></a>
                     </div>
                 </div>
             </div>
@@ -163,7 +163,7 @@
     <div class="forth-landing">
         <div class="row">
             <div class="col-12 text-center">
-                <img src="./images/vector_smart_object_copy.jpg" class="forth-instagram">
+                <a href="https://www.instagram.com/" target="_blank"><img src="./images/vector_smart_object_copy.jpg" class="forth-instagram"></a>
             </div>
         </div>
         <div class="row">
@@ -193,7 +193,7 @@
         </div>
         <div class="row">
             <div class="col-12 text-center third-click-button">
-                <img src="./images/third-click-button.png" class="fifth-first-button-1st">
+                <a href="/Form2" target="_blank"><img src="./images/third-click-button.png" class="fifth-first-button-1st"></a>
             </div>
         </div>
     </div>

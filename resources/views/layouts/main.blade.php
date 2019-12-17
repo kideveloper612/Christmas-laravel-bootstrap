@@ -40,10 +40,10 @@
 			</div>
 			<div class="d-flex">
 				<div class="social d-flex">
-					<a href="">
+					<a href="https://www.instagram.com/" target="_blank">
 						<img src="./images/vector_smart_object.png" class="social-image1">
 					</a>
-					<a href="">
+					<a href="https://www.facebook.com/" target="_blank">
 						<img src="./images/vector_smart_object_2.png" class="social-image2">
 					</a>
 				</div>
@@ -66,11 +66,11 @@
     						Діліться з друзями у Facebook
     					</div>
     					<div class="col-6 d-flex footer-social">
-    						<button class="btn btn-info">
-	    						<img src="./images/icon.png" class="footer-facebook">
+    						<a href="https://www.facebook.com/" class="footer-lst-button">
+	    						<img src="./images/icon.png">
 	    						Подобається
-	    					</button>
-    						<button class="btn btn-info ml-4">Поділитися</button>
+		    				</a>
+		    				<a href="https://www.facebook.com/" class="footer-2nd-button">Поділитися</a>
     					</div>
     				</div>
     				<div class="row">

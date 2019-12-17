@@ -343,11 +343,20 @@ footer {
 	padding-left: 0;
 }
 
-.footer-social button {
+.footer-social a {
 	font-size: 0.8vw;
-	font-weight: bolder;
+	font-weight: bold;
 	background-color: rgb(74, 103, 183);
 	border-radius: 0.3vw;
+	color: white;
+	padding: 0.1vw 0.3vw;
+	margin-right: 1vw;
+	text-decoration: none;
+}
+
+.footer-social img {
+	margin-top: -0.2vw;
+	width: 1vw;
 }
 
 .footer-facebook {
