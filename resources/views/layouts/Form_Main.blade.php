@@ -31,13 +31,12 @@
 	    			Торгова марка «Коли Трапляються Дива» і всі цифрові та інтелектуальні матеріали, в тому числі на веб-сайті, захищені<br>авторським правом. Спільне використання та копіювання без дозволу заборонено. ©2019
 	    		</div>
 	    		<div class="row d-flex Form-social">
-	    			<img src="./images/Form1/footer-instagram.png" id="footer-instagram">
-	    			<img src="./images/Form1/footer-facebook.png" id="footer-facebook">
+	    			<a href="https://www.instagram.com/" target="_blank"><img src="./images/Form1/footer-instagram.png" id="footer-instagram"></a>
+	    			<a href="https://www.facebook.com/" target="_blank"><img src="./images/Form1/footer-facebook.png" id="footer-facebook"></a>
 	    		</div>
 	    	</div>
 	    </div>
 	</div>
-	
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>

@@ -13,7 +13,7 @@
 			<div class="row card-row">
 				<div class="col-6">
 					<div class="sub-card d-block">
-						<img src="./images/Form1/girl-logo.png"/>
+						<a href="/Form2"><img src="./images/Form1/girl-logo.png"/></a>
 						<div class="subcard-text">
 							Для дівчинки
 						</div>
@@ -21,7 +21,7 @@
 				</div>
 				<div class="col-6">
 					<div class="sub-card d-block">
-						<img src="./images/Form1/boy-logo.png" class="boy-logo" />
+						<a href="/Form2"><img src="./images/Form1/boy-logo.png" class="boy-logo" /></a>
 						<div class="subcard-text">
 							Для хлопчика
 						</div>
