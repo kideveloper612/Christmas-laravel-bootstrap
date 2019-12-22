@@ -10,18 +10,21 @@
 					Дані замовника
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-6 offset-3 Form4-input">
-					<input type="text" name="name" placeholder="П.І.Б.">
+			<form action="{{ 'send/email' }}" method="POST">
+				{{ csrf_field() }}
+				<div class="row">
+					<div class="col-6 offset-3 Form4-input">
+						<input type="text" name="customer_name" placeholder="П.І.Б." required>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<div class="col-6 offset-3 Form4-input">
-					<input type="text" name="email" placeholder="Адреса електронної пошти">
+				<div class="row">
+					<div class="col-6 offset-3 Form4-input">
+						<input type="text" name="customer_email" placeholder="Адреса електронної пошти" required>
+					</div>
 				</div>
-			</div>
-			<div class="row">
-				<button class="Form2-button Form4-button">Оплатити замовлення</button>
-			</div>
+				<div class="row">
+					<button class="Form2-button Form4-button" type="submit">Оплатити замовлення</button>
+				</div>
+			</form>
 		</div>
 @endsection

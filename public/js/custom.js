@@ -18,4 +18,39 @@ $(document).ready(function(){
     $("#myModal").on('hide.bs.modal', function(){
         $("#cartoonVideo").attr('src', '');
     });
+
+});
+
+$('#photo1').change(function() {
+  var i = $('#photo1-name').clone();
+  var file_name = $('#photo1')[0].files[0].name;
+  $('#photo1-name').text(file_name);
+});
+
+$('#photo2').change(function() {
+  var i = $('#photo2-name').clone();
+  var file_name = $('#photo2')[0].files[0].name;
+  $('#photo2-name').text(file_name);
+});
+
+$('#Family_Photo').change(function() {
+  var i = $('#Family_Photo-Name').clone();
+  var file_name = $('#Family_Photo')[0].files[0].name;
+  $('#Family_Photo_Name').text(file_name);
+});
+
+$('#Room_Photo').change(function() {
+  var i = $('#Room_Photo-Name').clone();
+  var file_name = $('#Room_Photo')[0].files[0].name;
+  $('#Room_Photo_Name').text(file_name);
+});
+
+$('#Letter_Photo').change(function() {
+  var i = $('#Letter_Photo-Name').clone();
+  var file_name = $('#Letter_Photo')[0].files[0].name;
+  $('#Letter_Photo_Name').text(file_name);
+});
+
+
+$(document).ready(function () {
 });

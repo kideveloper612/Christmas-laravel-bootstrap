@@ -101,7 +101,7 @@
 					</button>        
 					<!-- 16:9 aspect ratio -->
 					<div class="embed-responsive embed-responsive-16by9">
-						<iframe id="cartoonVideo class="embed-responsive-item"" width="560" height="315" allowscriptaccess="always" src="//www.youtube.com/embed/YE7VzlLtp-4?autoplay=1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+						<iframe id="cartoonVideo" class="embed-responsive-item" width="560" height="315" allowscriptaccess="always" src="//www.youtube.com/embed/YE7VzlLtp-4?autoplay=1" frameborder="0" allowfullscreen allow="autoplay"></iframe>
 					</div>
 				</div>
 			</div>
