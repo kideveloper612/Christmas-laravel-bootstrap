@@ -139,17 +139,7 @@ class HomeController extends Controller
         Session::forget('comment');
         Session::forget('advice');
 
-        $name = 'test';
-        // Mail::to('br1aner@yandex.com')->send(new SendMail($name));
-        $fromUser = $req->customer_email;
-        $toUser = $req->customer_email;
-         
-        // send notification using the "user" model, when the user receives new message
-        $toUser->notify(new NewMessage($fromUser));
-         
-        // send notification using the "Notification" facade
-        Notification::send($toUser, new NewMessage($fromUser));
-
+       
         return redirect()->route('Form1')->with('success', 'Successfully email was sent!');
     }
 
